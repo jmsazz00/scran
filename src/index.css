@@ -93,6 +93,10 @@ h3 {
   width: 20vw;
 }
 
+.hero__img {
+  margin-top: 5rem;
+}
+
 .hero__media ul {
   padding: 0;
   margin: 1rem 0;
@@ -133,6 +137,12 @@ h3 {
   font-size: 1.8rem;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__img {
+    margin-top: 0;
+  }
+}
+
 /* Opening Block */
 
 #opening {
@@ -152,7 +162,14 @@ h3 {
 }
 
 .opening__img {
-  margin: 0 1rem;
+  margin: 0 4rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .opening__img {
+    margin: 0 1rem;
+  }
 }
 
 .opening__img img {
@@ -355,7 +372,7 @@ h3 {
   align-items: center;
   row-gap: 2rem;
   flex-direction: column;
-  margin: 0 3rem 4rem;
+  margin: 0 7rem 3rem;
 }
 
 .awards__images .awards__img:nth-of-type(2) img {
@@ -372,7 +389,7 @@ h3 {
 }
 
 .awards__img:hover {
-  box-shadow: 0 0 2px 1px #ddd;
+  border: 3px solid #aaa;
   transform: scale(1.02);
 }
 
@@ -381,6 +398,7 @@ h3 {
     flex-direction: row;
     flex-basis: 33.33%;
     column-gap: 2rem;
+    margin: 0 3rem 4rem;
   }
 }
 
