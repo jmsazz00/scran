@@ -1,0 +1,14 @@
+[
+    {
+        "href" : "https://www.facebook.com/scrangla/",
+        "icon": "fa fa-facebook-square"
+    },
+    {
+        "href" : "https://www.instagram.com/scrangla/",
+        "icon": "fa fa-instagram"
+    },
+    {
+        "href" : "mailto:scranglasgow18@gmail.com",
+        "icon": "fa fa-envelope"
+    }
+]
