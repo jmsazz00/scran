@@ -51,7 +51,7 @@ h3 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -68,7 +68,7 @@ h3 {
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   h3 {
@@ -239,7 +239,7 @@ h3 {
   color: var(--color-heading);
   margin-top: 4rem;
   margin-bottom: 1rem;
-  background: linear-gradient(to right, #42275a, #734b6d);
+  background: linear-gradient(to right, #2e0854, #4b0082);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -255,15 +255,7 @@ h3 {
   margin: 3rem;
   border-radius: 5px;
   animation: bg-animate 10s infinite alternate;
-  background: linear-gradient(
-    to right,
-    #fde4a5,
-    #d3ff6b,
-    #8df99c,
-    #00cdac,
-    #fbd786,
-    #f69195
-  );
+  background: linear-gradient(to right, #2980b9, #8e44ad);
   background-size: 250%;
   padding: var(--gap);
   padding-right: 0;
