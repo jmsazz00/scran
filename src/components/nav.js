@@ -6,16 +6,21 @@ function Nav(props) {
 
   useEffect(() => {
     let event = (ev) => {
-      console.log(ev.target);
       if (!ev.target.matches("nav")) setNavOpen(false);
     };
-    document.addEventListener("click", event, true);
+    document.addEventListener("click", event);
     return () => document.removeEventListener("click", event);
   }, []);
 
   return (
     <section id="nav" className={navOpen ? "nav--opened" : ""}>
-      <span className="clickable nav-span" onClick={() => setNavOpen(!navOpen)}>
+      <span
+        className="clickable nav-span"
+        onClick={(ev) => {
+          setNavOpen(!navOpen);
+          ev.stopPropagation();
+        }}
+      >
         &lt;
       </span>
       <nav>

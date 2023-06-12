@@ -8,6 +8,7 @@
 
 :root {
   --color-heading: #232323;
+  --nav-width: 125px;
 }
 
 #root {
@@ -384,7 +385,7 @@ h3 {
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
-  margin: 0 3.5rem 3rem;
+  margin: 0 1.5rem 3rem;
 }
 
 .awards__list {
@@ -397,12 +398,12 @@ h3 {
 
 .awards__img {
   position: absolute;
-  height: 95vh;
-  width: 60vw;
+  height: 75vh;
+  width: 70vw;
   left: 50%;
-  margin-left: -30vw;
+  margin-left: -35vw;
   top: 50%;
-  margin-top: -47.5vh;
+  margin-top: -37.5vh;
   cursor: pointer;
   opacity: 0;
   object-fit: cover;
@@ -438,6 +439,13 @@ h3 {
 @media screen and (min-width: 1024px) {
   .awards__images {
     margin: 0 3rem 4rem;
+  }
+
+  .awards__img {
+    width: 50vw;
+    height: 95vh;
+    margin-left: -25vw;
+    margin-top: -47.5vh;
   }
 }
 
@@ -504,7 +512,7 @@ iframe {
   display: flex;
   position: fixed;
   top: 20px;
-  right: -125px;
+  right: calc(var(--nav-width) * -1);
   align-items: center;
   z-index: 99;
   transition: right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.075);
@@ -550,7 +558,7 @@ iframe {
   display: flex;
   align-items: center;
   text-align: center;
-  width: 125px;
+  width: var(--nav-width);
 }
 
 #nav nav ul {
