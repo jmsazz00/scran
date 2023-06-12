@@ -3,7 +3,7 @@ import React from "react";
 function Gallery(props) {
   return (
     <section id="gallery" className="section--bordered">
-      <div className="gallery-block">
+      <div className="gallery-block container">
         <div className="heading-block">
           <h2>dishes</h2>
           <hr className="heading__line"></hr>

@@ -3,7 +3,7 @@ import React from "react";
 function Opening(props) {
   return (
     <section id="opening">
-      <div className="opening-block">
+      <div className="opening-block container">
         <picture className="opening__img">
           <source type="./webp" srcSet="../images/chris.webp 1x" />
           <source type="./jpg" srcSet="../images/chris.jpg 1x" />
