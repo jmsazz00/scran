@@ -389,7 +389,7 @@ h3 {
 }
 
 .awards__list {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -398,12 +398,12 @@ h3 {
 
 .awards__img {
   position: absolute;
-  height: 75vh;
+  height: 55vh;
   width: 70vw;
   left: 50%;
   margin-left: -35vw;
   top: 50%;
-  margin-top: -37.5vh;
+  margin-top: -27.5vh;
   cursor: pointer;
   opacity: 0;
   object-fit: cover;
@@ -437,6 +437,10 @@ h3 {
 }
 
 @media screen and (min-width: 1024px) {
+  .awards__list {
+    height: 100vh;
+  }
+
   .awards__images {
     margin: 0 3rem 4rem;
   }
