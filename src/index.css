@@ -341,7 +341,7 @@ h3 {
 [data-name]:after {
   position: absolute;
   content: attr(data-name);
-  top: 80%;
+  top: 65%;
   right: 5%;
   z-index: 99;
   background-color: #232323;
@@ -383,7 +383,7 @@ h3 {
 [data-name]:hover:after {
   opacity: 1;
   visibility: visible;
-  top: 85%;
+  top: 70%;
 }
 
 /* Awards */

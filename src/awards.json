@@ -1,13 +1,13 @@
 [
     {
+        "sources" : false,
+        "src": "./images/poster.jpg"
+    },
+    {
         "sources" : true,
         "webp": "./images/win1.webp",
         "png": "./images/win1.png",
         "src": "./images/win1.png"
-    },
-    {
-        "sources" : false,
-        "src": "./images/poster.jpg"
     },
     {
         "sources" : true,
