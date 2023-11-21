@@ -12,37 +12,37 @@ function Gallery(props) {
           <div className="gallery__img" data-name="duckbun">
             <img src="./images/duckbun1.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="eggblackpud">
+          <div className="gallery__img" data-name="eggblackpud">
             <img src="./images/eggsblackpud2.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="porkcrumb">
+          <div className="gallery__img" data-name="porkcrumb">
             <img src="./images/porkcrumb3.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="eggblackpud">
+          <div className="gallery__img" data-name="eggblackpud">
             <img src="./images/eggsblackpud4.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="macnham">
+          <div className="gallery__img" data-name="macnham">
             <img src="./images/macnham5.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="fullbowl">
+          <div className="gallery__img" data-name="fullbowl">
             <img src="./images/fullbowl6.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="breakfast">
+          <div className="gallery__img" data-name="breakfast">
             <img src="./images/fullbreakfast7.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="indianbeef">
+          <div className="gallery__img" data-name="indianbeef">
             <img src="./images/indianbeef8.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="florentine">
+          <div className="gallery__img" data-name="florentine">
             <img src="./images/florentine9.jpg" alt=""></img>
           </div>
           <div className="gallery__img" data-name="3-plates">
             <img src="./images/3plates10.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="eggduck">
+          <div className="gallery__img" data-name="eggduck">
             <img src="./images/eggduck11.jpg" alt=""></img>
           </div>
-          <div class="gallery__img" data-name="Sq&Po">
+          <div className="gallery__img" data-name="Sq&Po">
             <img src="./images/squashnpoach12.jpg" alt=""></img>
           </div>
         </div>

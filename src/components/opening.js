@@ -34,7 +34,7 @@ function Opening(props) {
             to our big hearted cafe soon, and we're sure, once you've
             visited, you'll keep on coming back for more.
           </p>
-          <div class="trp-adv">
+          <div className="trp-adv">
             <a
               href="https://www.tripadvisor.co.uk/Restaurant_Review-g186534-d15355610-Reviews-Scran-Glasgow_Scotland.html"
               target="_blank"

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import links from "../links.json";
 
-function Hero(props) {
+function Hero() {
   return (
     <section id="hero">
-      <div className="hero-block">
+      <div className="hero-block initial">
         <h1 className="hero__intro">WELCOME to</h1>
         <picture className="hero__img">
           <img src="../images/hero.png" alt="Logo"></img>
@@ -13,7 +13,7 @@ function Hero(props) {
         <div className="hero__media">
           <ul>
             {links.map((l) => (
-              <li className="clickable">
+              <li key={l.icon} className="clickable">
                 <a href={l.href} target="_blank">
                   <span className={l.icon}></span>
                 </a>

@@ -25,7 +25,7 @@ function Awards(props) {
           <span className="scroller clickable" onClick={decrementIndex}>
             &lt;
           </span>
-          <div class="awards__list">
+          <div className="awards__list">
             {awards.map((aw, ind) => {
               let cls = "next";
               if (ind === index) cls = "active";
