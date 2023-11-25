@@ -14,7 +14,7 @@ function Opening(props) {
             cook good scran and they will come
           </h3>
           <p className="opening__paragraph">
-            Here at SCRAN we think of ourselves as not just another cafe. We
+            &bull; Here at SCRAN we think of ourselves as not just another cafe. We
             pride ourselves on making our customers feel at ease and welcome the
             minute you walk through the door, and the personal touch is genuine.
             The menu is full of choice with something for everyone. Using the
@@ -23,14 +23,14 @@ function Opening(props) {
             cooked well, with our own wee twist.
           </p>
           <p className="opening__paragraph">
-            We've designed the menu with the customer in mind and what YOU want
+            &bull; We've designed the menu with the customer in mind and what YOU want
             to eat. We feel that it's 'Just right' for Dennistoun. Also stocking
             award winning Big Bear Bakery cakes. Officially the top dogs in
             Glasgow... Every weekend we cook up an exquisite special, which
             usually sells out midway through sunday lunch, so be quick!
           </p>
           <p className="opening__paragraph">
-            So from Chris and the SCRAN family, we look forward to welcoming you
+            &bull; So from Chris and the SCRAN family, we look forward to welcoming you
             to our big hearted cafe soon, and we're sure, once you've
             visited, you'll keep on coming back for more.
           </p>
